@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    .nav{
+        width: 85%;
+        margin: auto;
+        .collapseDiv{
+            justify-content: flex-end;
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    li{
+                        font-weight: 600;
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+#newadventure{
+width: 100%; 
+background:linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url('/assets/img/slider1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position:relative;
+padding: 30px;
+.newadventurecontainer{
+    margin: 30px;
+    padding: 30px;
+    .row{
+        margin: 30px;
+        padding: 30px;
+        .newadventuretext{
+            text-align: center;
+            margin: 0 auto;
+            
+        }
+    }
+}
+}
